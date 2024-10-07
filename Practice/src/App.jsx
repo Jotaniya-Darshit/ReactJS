@@ -15,6 +15,15 @@ export default class ClassCom extends Component {
     this.setState({c: this.state.c - 1})
   }
 
+  componentDidMount(){
+    console.log("Darshit");
+  }
+
+  componentDidUpdate()
+  {
+    console.log("Updating");
+  }
+
   render(){
     return (
       <div>
