@@ -1,4 +1,4 @@
-React JS  :- It is free, open-source Javascript library that hleps developers biild UI for web and mobile platforms.
+React JS  :- It is free, open-source Javascript library that helps developers biild UI for web and mobile platforms.
              It is Components based, which makes it easy to create interactive UIs..
 
 
