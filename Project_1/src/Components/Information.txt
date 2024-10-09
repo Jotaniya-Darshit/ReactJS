@@ -1,4 +1,4 @@
-React JS  :- It is free, open-source Javascript library that helps developers biild UI for web and mobile platforms.
+React JS  :- It is free, open-source Javascript library that helps developers build UI for web and mobile platforms.
              It is Components based, which makes it easy to create interactive UIs..
 
 
@@ -21,7 +21,7 @@ public folder :- All images are save this folder.
 
 
 render() :- It means first run the page it printing the page.
-            Then refreshing the page it is call rerender.
+rerender() :- Then refreshing the page it is call rerender.
 
 
 JSX :- JSX stands for Javascript Syntax Extentions.
