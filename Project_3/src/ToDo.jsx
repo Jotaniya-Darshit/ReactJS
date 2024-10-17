@@ -17,7 +17,7 @@ export default function ToDo() {
   return (
     <>
         <h1>To Do List</h1>
-        <input type="text" ref={input} />&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" ref={input} />&nbsp;&nbsp;&nbsp;&nbsp; 
         <button onClick={addItem}>Add</button>
         {
             task ? task.map((e,i)=>{
