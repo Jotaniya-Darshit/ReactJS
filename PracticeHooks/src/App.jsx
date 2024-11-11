@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      {/* <UnControlledComponent/> */}
-      <ControlledComponent/>
+      <UnControlledComponent/>
+      {/* <ControlledComponent/> */}
     </>
   )
 }
