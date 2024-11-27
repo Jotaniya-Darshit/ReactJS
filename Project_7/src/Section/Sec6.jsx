@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function Sec3({data}) {  
+export default function Sec6({data}) {
   return (
     <>
     <div className="container">
-      <div className="name"><h1>Dairy, Bread & Eggs</h1></div>
+      <div className="name"><h1>Hookah</h1></div>
       <div className="name2"><h2>see all</h2></div>
     </div>
-        <div className='Sec3text'>
+      <div className='Sec3text'>
         {   
         data  &&
             data.map((e,i)=>{
