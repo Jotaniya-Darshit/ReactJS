@@ -2,10 +2,13 @@ import React from 'react'
 
 export default function Sec4() {
   return (
-    <div>
+    <div className='border'>
+        <div className='width100'>
+            <h2 className='w40'>Useful Links</h2>
+            <h2 className='w60'>Categories <span id='green' className='green'>See all</span></h2>
+        </div>
         <div class='footer'>
             <div class="footer-column1">
-            <h3 className='width100'>Useful Links</h3>
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Careers</a></li>
@@ -34,7 +37,6 @@ export default function Sec4() {
             </ul>
         </div>
         <div class="footer-column2">
-            <h3 className='width100'>Categories <span id='green' className='green'>See all</span></h3>
             <ul>
                 <li><a href="#">Vegetables & Fruits</a></li>
                 <li><a href="#">Cold Drinks & Juices</a></li>
@@ -57,7 +59,6 @@ export default function Sec4() {
                 <li><a href="#">Personal Care</a></li>
                 <li><a href="#">Electronics & Electricals</a></li>
                 <li><a href="#">Print Store</a></li>
-                <li><a href="#">Beauty & Cosmetics</a></li>
             </ul>
 
             <ul>
@@ -70,10 +71,28 @@ export default function Sec4() {
                 <li><a href="#">Personal Care</a></li>
                 <li><a href="#">Electronics & Electricals</a></li>
                 <li><a href="#">Print Store</a></li>
-                <li><a href="#">Beauty & Cosmetics</a></li>
             </ul>
         </div>
         </div>
+        <div class="footer-column3">
+            <div className='w20-1'><h5>© Blink Commerce Private Limited, 2016-2024</h5></div>
+            <div className='w20-2'>
+                Download App 
+                <img src="2 (2).png" alt="Big"/>
+                <img src="2 (1).png" alt="Big"/>
+            </div>
+            <div className='w20-3'>
+                <div className="icon"><i class="ri-facebook-fill"></i></div>
+                <div className="icon"><i class="ri-twitter-fill"></i></div>
+                <div className="icon"><i class="ri-instagram-line"></i></div>
+                <div className="icon"><i class="ri-linkedin-fill"></i></div>
+                <div className="icon"><i class="ri-threads-fill"></i></div>
+            </div>
+        </div>
+        <br />
+        <h4 className='h4'>
+        “Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.
+        </h4>
     </div>
   )
 }
