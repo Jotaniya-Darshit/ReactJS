@@ -1,0 +1,188 @@
+/* General Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Main Container */
+.main-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #2a2a2a;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  overflow: hidden;
+  animation: fadeIn 0.5s ease;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 30px;
+  background: linear-gradient(135deg, #6f4f37, #3a2a1b);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+.form-container h1 {
+  font-size: 2rem;
+  color: #f2b800; /* Golden Egyptian color */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.form-container input {
+  width: 100%;
+  margin: 15px 0;
+  padding: 15px;
+  font-size: 16px;
+  color: #f5f5f5;
+  background: #333;
+  border: 1px solid #444;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container input:focus {
+  border-color: #f2b800;
+  box-shadow: 0 0 8px rgba(242, 184, 0, 0.7);
+  outline: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #e76f51, #d1495b); /* Egyptian red and gold */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container button:hover {
+  background: linear-gradient(135deg, #f2b800, #e76f51);
+  box-shadow: 0 4px 10px rgba(242, 184, 0, 0.5);
+}
+
+/* Record Container */
+.record-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+/* Individual Record */
+.record {
+  background: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.record:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+.record img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.record h2 {
+  font-size: 1.5rem;
+  color: #f2b800; /* Golden color */
+  margin: 10px 0;
+}
+
+.record h3 {
+  font-size: 1rem;
+  color: #d1d1d1;
+  margin: 5px 0;
+}
+
+.record button {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  background: #e76f51; /* Egyptian red */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.record button:hover {
+  background: #d1495b;
+  transform: scale(1.05);
+}
+
+.record button:nth-child(2) {
+  background: #f2b800; /* Golden color for Delete */
+}
+
+.record button:nth-child(2):hover {
+  background: #f0a600;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 90%;
+    padding: 30px;
+  }
+
+  .record-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Scrollbar Styling */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #f2b800;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #333;
+}

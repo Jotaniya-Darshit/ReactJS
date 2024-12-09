@@ -1,0 +1,119 @@
+/* App.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff758c;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 2px solid #ff758c;
+}
+
+input {
+  width: calc(100% - 40px);
+  margin: 10px 0;
+  padding: 12px;
+  border: 2px solid #ff758c;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #ff4766;
+  box-shadow: 0 0 5px rgba(255, 71, 102, 0.5);
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff4766, #ff758c);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff758c, #ff4766);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.record {
+  background: #f8f9fa;
+  border: 2px solid #ff758c;
+  border-radius: 12px;
+  margin: 15px 0;
+  padding: 20px;
+  text-align: left;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.record h2 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #ff4766;
+}
+
+.record h3 {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.record button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.record button:first-child {
+  background: linear-gradient(135deg, #ff4766, #ff758c);
+}
+
+.record button:first-child:hover {
+  background: linear-gradient(135deg, #ff758c, #ff4766);
+}
+
+.record button:last-child {
+  background: linear-gradient(135deg, #28a745, #36b37e);
+}
+
+.record button:last-child:hover {
+  background: linear-gradient(135deg, #36b37e, #28a745);
+}

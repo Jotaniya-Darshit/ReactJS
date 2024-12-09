@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "XYZ",
+      "url": "https://cdn.pixabay.com/photo/2024/11/23/11/11/pecan-nut-9218708_640.jpg",
+      "weight": "1000",
+      "price": "10"
+    },
+    {
+      "id": "2",
+      "name": "123",
+      "url": "https://cdn.pixabay.com/photo/2024/02/14/16/53/night-8573855_640.jpg",
+      "weight": "100",
+      "price": "100"
+    }
+  ]
+}

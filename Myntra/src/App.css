@@ -1,0 +1,155 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.navbar{
+  width: 100%;
+  height: 85px;
+  border: 1px solid;
+  display: flex;
+  margin-bottom: 20px;
+}
+.navsec1{
+  border: 1px solid;
+  width: 10%;
+  height:85px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navsec2{
+  border: 1px solid;
+  width: 40%;
+  height:85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navsec3{
+  border: 1px solid;
+  width: 33%;
+  height:85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navsec4{
+  border: 1px solid;
+  width: 18%;
+  height:85px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.navsec1 img{
+  width: 65%;
+  height: 65%;
+  object-fit: cover;
+}
+.navsec2 nav{
+  width: 100%;
+  padding-left: 30px;
+}
+.navsec2 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 2%;
+  font-size: 16px;
+  font-weight: 700;
+}
+.navsec2 sup{
+  font-size: 11px;
+  color: #FF3F6C;
+  font-weight: 800;
+}
+.navsec3 input{
+  width: 80%;
+  height: 40px;
+  outline: none;
+  padding-left: 8%;
+  border: none;
+  border-radius: 5px;
+  background-color: #F5F5F6;
+  font-size: 15px;
+}
+.navsec4 i{
+  font-size: 35px;
+}
+.navsec4 span{
+  font-size: 15px;
+  
+}
+.sec1img{
+  width: 90%;
+  /* margin-top: 20px; */
+  display: flex;
+  justify-self: center;
+}
+.fleximg{
+  width: 90%;
+  display: flex;
+  justify-self: center;
+}
+.fleximg img{
+  width: 100%;
+}
+.fleximg2{
+  width: 90%;
+  display: flex;
+  justify-self: center;
+}
+.fleximg2 img{
+  width: 14.4%;
+}
+.sec2img{
+  width: 90%;
+  display: flex;
+  margin-top: 20px;
+  justify-self: center;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.sec2img img{
+  width: 200px;
+  height: 250px;
+}
+.sec4img{
+  width: 90%;
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+}
+.sec4img img{
+  width: 100%;
+}
+.padding{
+  padding: 23px;
+  border: 1px solid;
+  width: 20%;
+  margin-bottom: 10px;
+}
+.fixbox{
+  height: 350px;
+  border: 1px solid;
+  width: 4%;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 1295px;
+  position: fixed;
+  background-color: #535766;
+}
+.ri-arrow-left-s-fill{
+  font-size: 50px;
+  color: white;
+}
+.varticle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  flex-flow: column-reverse;
+}
