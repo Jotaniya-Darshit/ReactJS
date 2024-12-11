@@ -15,7 +15,6 @@ export default function Task() {
 
   const fetchAPI = async () => {
     let data = await axios.get("http://localhost:5002/products");
-    console.log(data);
     setRecord(data.data);
   };
 

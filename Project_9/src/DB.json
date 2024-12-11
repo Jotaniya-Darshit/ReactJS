@@ -9,10 +9,52 @@
     },
     {
       "id": "2",
-      "name": "123",
-      "url": "https://cdn.pixabay.com/photo/2024/02/14/16/53/night-8573855_640.jpg",
-      "weight": "100",
-      "price": "100"
+      "name": "",
+      "url": "",
+      "weight": "",
+      "price": ""
+    },
+    {
+      "id": "3",
+      "name": "",
+      "url": "",
+      "weight": "",
+      "price": ""
+    },
+    {
+      "id": "4",
+      "name": "",
+      "url": "",
+      "weight": "",
+      "price": ""
+    },
+    {
+      "id": "5",
+      "name": "",
+      "url": "",
+      "weight": "",
+      "price": ""
+    },
+    {
+      "id": "6",
+      "name": "",
+      "url": "",
+      "weight": "",
+      "price": ""
+    },
+    {
+      "id": "7",
+      "name": "",
+      "url": "",
+      "weight": "",
+      "price": ""
+    },
+    {
+      "id": "8",
+      "name": "",
+      "url": "",
+      "weight": "",
+      "price": ""
     }
   ]
 }

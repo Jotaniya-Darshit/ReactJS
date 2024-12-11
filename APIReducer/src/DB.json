@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": "4",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "title": "Mens Casual  slim fit",
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "price": "12",
+      "rating": "12"
+    },
+    {
+      "id": "2",
+      "image": "",
+      "title": "",
+      "description": "",
+      "price": "",
+      "rating": ""
+    }
+  ]
+}
