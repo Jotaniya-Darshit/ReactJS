@@ -1,12 +1,13 @@
 import { onAuthStateChanged } from 'firebase/auth';
 import React, { useEffect, useState } from 'react'
 import { auth, DataBase } from './FireBaseConfig';
-import { doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc, collection } from 'firebase/firestore';
 
 export default function DashBoard() {
 
     const [ user, setUser ] = useState(null);
     const [ userData, setUserData ] = useState("");
+    const [ record, setRecord ] = useState("");
 
     useEffect(()=>{
       onAuthStateChanged(auth, (data)=>{
@@ -27,6 +28,14 @@ export default function DashBoard() {
           console.log(userData);
         })
       }
+    }
+
+    const fetchData = async () => {
+      await getDoc(collection(DataBase,"Users")).then((data)=>{
+        let details = data.docs.map((item)=>({docId : item.id, ...item.data()}))
+        console.log(details);
+        setRecord(details);
+      })
     }
 
   return (

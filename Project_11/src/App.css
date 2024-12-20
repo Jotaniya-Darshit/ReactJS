@@ -1,0 +1,203 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e9ecef;
+  color: #343a40;
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #212529;
+  font-weight: bold;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar button {
+  padding: 10px 15px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: #c82333;
+}
+
+/* Login and Signup Containers */
+.login-container, .signup-container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.login-title, .signup-title {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #495057;
+}
+
+/* Form Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ced4da;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.4s;
+  background-color: #f8f9fa;
+}
+
+input:focus {
+  border-color: #6c757d;
+  outline: none;
+  background-color: #ffffff;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #138496;
+}
+
+.link-button {
+  margin-top: 15px;
+  color: #17a2b8;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard */
+.dashboard-container {
+  padding: 50px;
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1 {
+  margin-bottom: 30px;
+  color: #17a2b8;
+}
+
+.dashboard-container input {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 2px solid #ced4da;
+  background-color: #f8f9fa;
+}
+
+.dashboard-container button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 5px;
+  color: white;
+}
+
+.dashboard-container .edit-button {
+  background-color: #ffc107;
+}
+
+.dashboard-container .edit-button:hover {
+  background-color: #e0a800;
+}
+
+.dashboard-container .delete-button {
+  background-color: #dc3545;
+}
+
+.dashboard-container .delete-button:hover {
+  background-color: #c82333;
+}
+
+.record-item {
+  padding: 20px;
+  margin: 20px 0;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
