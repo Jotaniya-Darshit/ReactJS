@@ -4,6 +4,8 @@ import { auth, DataBase } from './FireBaseConfig'
 import { Link, useNavigate } from 'react-router-dom'
 import SignIn from './SignIn'
 import { doc,setDoc } from 'firebase/firestore'
+import { signInWithPopup } from 'firebase/auth'
+import { provider } from './FireBaseConfig'
 
 export default function SignUp() {
 
@@ -23,6 +25,13 @@ export default function SignUp() {
         navigate("/dashboard");
     };
 
+    const handleGoogleSignIn = async () => {
+      await signInWithPopup(auth, provider).then((data)=>{
+        console.log(data);
+      })
+    };
+
+
   return (
     <div>
         <h1>Sign Up</h1>
@@ -33,6 +42,7 @@ export default function SignUp() {
         <input type="text" onChange={(e)=>setPass(e.target.value)} placeholder='Enter Your Password' />
         <button onClick={HandleSignUp}>Sign Up</button>
         <button><Link to={"/signin"}> Sign In </Link></button>
+        <button onClick={handleGoogleSignIn}>Sign In With Google</button>
     </div>
   )
 }

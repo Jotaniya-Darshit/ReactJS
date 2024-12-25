@@ -8,18 +8,18 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBZ9gBSZskvzrnUpUt9wQ2-QW-TxvJxDCs",
-  authDomain: "for-react-9544e.firebaseapp.com",
-  projectId: "for-react-9544e",
-  storageBucket: "for-react-9544e.firebasestorage.app",
-  messagingSenderId: "116088285491",
-  appId: "1:116088285491:web:f2191c108850b6112b7646"
+  apiKey: "AIzaSyClM6RW_n0KknIr6IKL6Pecx3kzySiz7xo",
+  authDomain: "for-project-624c6.firebaseapp.com",
+  projectId: "for-project-624c6",
+  storageBucket: "for-project-624c6.firebasestorage.app",
+  messagingSenderId: "124056112387",
+  appId: "1:124056112387:web:8364bbacfec08e77dbad36"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-const DataBase = getFirestore(app);
-const provider = new GoogleAuthProvider;
+const DB = getFirestore(app);
+const provider = new GoogleAuthProvider();
 
-export { auth,DataBase,provider };
+export { auth, DB, provider };
